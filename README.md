@@ -23,6 +23,17 @@ Advantages and desadvantages of public repository:(1)Open to everyone.
 private repository:Restrict access to authorized users, it's still essential to implement strong access controls, multi-factor authentication, and regular audits to mitigate risks.
 
 ## Detail the steps involved in making your first commit to a GitHub repository. What are commits, and how do they help in tracking changes and managing different versions of your project?
+#1 Get your changes ready for saving by using git add. This step picks the files or changes you want to include in your next save.
+#2 Save the changes with git commit -m "commit message". The -m lets you add a short note about what you did right away.
+#3 Make sure your commit message is clear and explains both what changes you made and why.
+#4 Share your saved changes with others by pushing the commit to a remote repository using git push origin branch name.
+
+WHAT ARE COMMIT AND HOW DO THE HELP IN TRACKING CHANGES AND MANAGING DIFFERENT VERSIONS OF YOUR PROJECTS?
+#1 Commits are local first: Your commits are saved on your computer first. You need to use git push to share them with others on the Internet.
+#2 Commit often: It's a good idea to save your work often with small commits. This makes it easier to see what changed and fix mistakes if needed.
+#3 Good commit messages: Writing clear messages about what you changed and why helps everyone understand the project's history better.
+#4 Amend commits: If you need to fix your last commit, you can change the message or add something you missed with --amend.
+#5 Undo commits safely: If you need to undo something, git revert is usually the safest way, especially if others have seen your changes. Use git reset carefully, mostly for things only you have seen.
 
 ## How does branching work in Git, and why is it an important feature for collaborative development on GitHub? Discuss the process of creating, using, and merging branches in a typical workflow.
 
